@@ -47,8 +47,8 @@ nav {
     background-color: hsla(0, 0%, 0%, 0.8);
     cursor: pointer;
     font-family: 'Barlow Condensed', sans-serif;
-    padding-block: 2.5em;
-    padding-inline: 6em;
+    padding-block: 2.2em;
+    padding-inline: 8em;
 
 }
 
@@ -100,14 +100,17 @@ nav a:focus{
 } 
 
 .space-about{
-    width: 40%;
+    width: 35%;
+    border: 1px solid red;
 }
 
-.space-about h5{
+.space-about .p{
     color: #D0D6F9;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 100;
+    word-spacing: 1rem;
+    letter-spacing: 0.5;
     line-height: 4rem;
     font-size: 1.5rem;
    
@@ -119,7 +122,7 @@ nav a:focus{
     padding-bottom: 5%;
     font-family: 'Bellefair', serif;
     font-weight: 100;
-    font-size: 8rem;
+    font-size: 9rem;
     }
 
 .space-about p{
@@ -137,7 +140,7 @@ nav a:focus{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
@@ -313,7 +316,7 @@ nav a{
 .space-about h1{
     font-size: 6rem;
 }
-.space-about h5{
+.space-about .p{
     font-size: 1rem;
 }
 }
