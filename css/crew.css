@@ -22,18 +22,18 @@ body{
     font-family: 'Barlow', sans-serif;
     overflow-x: hidden;
 }
-nav {
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsla(0, 0%, 0%, 0.8);
-    cursor: pointer;
-    font-family: 'Barlow Condensed', sans-serif;
-    padding-block: 2.2em;
-    padding-inline: 8em;
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1000;
 }
+
 
 .logo img{
     width: 48px;
@@ -55,8 +55,8 @@ nav {
     background-color: hsla(0, 0%, 0%, 0.8);
     cursor: pointer;
     font-family: 'Barlow Condensed', sans-serif;
-    padding-block: 2.5em;
-    padding-inline: 6em;
+    padding-block: 2.2em;
+    padding-inline: 8em;
 
 }
 
