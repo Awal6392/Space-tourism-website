@@ -73,7 +73,7 @@ nav a{
     color:white;
     text-transform: uppercase;
     cursor: pointer;
-    padding-bottom: 39px;
+    padding-bottom: 35px;
     border-bottom: 0.1rem solid transparent;
 }
 
@@ -85,7 +85,14 @@ nav a:focus{
  nav a:active{
     border-color: hsl(0, 0%, 100%);
 } 
-  
+
+.hori-line{
+    width: 20rem;
+    height: 1px;
+    background-color: grey;
+    margin-left: 5rem;
+    flex: 1;
+}
 
 .mobile-nav-toggle{
     display: none;
@@ -170,7 +177,8 @@ nav a:focus{
 
     }
 
-    header nav span{
+    header nav span,
+    .hori-line{
         display: none;
     }
 

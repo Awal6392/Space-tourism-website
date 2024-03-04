@@ -42,6 +42,13 @@ header{
     margin-left: 2.5em;
     cursor: pointer;
 }
+.hori-line{
+    width: 20rem;
+    height: 1px;
+    background-color: grey;
+    margin-left: 5rem;
+    flex: 1;
+}
 
 nav {
     float: right;
@@ -77,7 +84,7 @@ nav a{
     color:white;
     text-transform: uppercase;
     cursor: pointer;
-    padding-bottom: 39px;
+    padding-bottom: 35px;
     border-bottom: 0.1rem solid transparent;
 }
 
@@ -209,7 +216,8 @@ header {
 
 }
 
-header nav span{
+header nav span,
+.hori-line{
     display: none;
 }
 
